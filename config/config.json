@@ -1,0 +1,10 @@
+{
+    "create_wsdl_url": "http://10.11.180.242/uac/services/CreateAiuapTokenSoap?wsdl",
+    "check_wsdl_url": "http://10.11.180.242/uac/services/CheckAiuapTokenSoap?wsdl",
+    "timestamp_format": "%Y%m%d%H%M%S",
+    "service_id": "SHNGBOMC",
+    "db_host": "localhost",
+    "db_user": "root",
+    "db_password": "hsp",
+    "db_name": "testdb"
+}
