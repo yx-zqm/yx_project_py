@@ -72,7 +72,7 @@ class TestTokenService(unittest.TestCase):
 
         # Step 2: 等待超时时间（例如 3 分钟）
         print("Waiting for 3 minutes to simulate token timeout...")
-        time.sleep(10)  # 等待3分钟
+        time.sleep(180)  # 等待3分钟
 
         # Step 3: 使用超时后的 token 进行检查
         check_response = self.service.check_token(appacctid, token)
